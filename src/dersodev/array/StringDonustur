@@ -1,0 +1,17 @@
+main =>
+	charDiziOlustur()
+	stringDonustur()
+	sout string yaz
+	
+charDiziOlustur => Hoca yapacak
+	5 char alsýn scanner
+	return dizi
+	
+doubleDiziOlustur =>
+	5 double alsýn scanner
+	return dizi
+	
+	
+stringDonustur =>
+	double - diziyi String donustur
+	return string
