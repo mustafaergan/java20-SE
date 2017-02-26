@@ -2,6 +2,12 @@ package com.vektorel.foksiyon;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author mustafa.ergan
+ * @category mustafa.ergan vektorel
+ */
+
 public class Faktoriyel {
 	
 	public static void main(String[] args) {
