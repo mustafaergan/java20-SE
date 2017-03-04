@@ -1,0 +1,20 @@
+Anasinif.class
+	=main
+		Insan aKisi = new Insan()
+		
+		aKisi.konuþur("a");
+		
+		Insan bKisi = new Insan()
+		
+		bKisi.konuþur("b");
+	
+	
+Insan.class
+	=konuþur(String kim)
+		{
+			if(kim.eq(a))
+				boþ konuþur
+			else
+				anlamlý konuþur
+		}
+	
