@@ -1,0 +1,10 @@
+Hizmetli
+	id
+	ismi
+	void isimYazdir()
+		id ve isim
+
+Ýslem2
+	main()
+		Hizetmeli.id=1 Hizetmeli.ismi=Ayþe
+		Hizetmeli.isimYazdir()

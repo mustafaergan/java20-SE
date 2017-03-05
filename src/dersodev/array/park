@@ -1,0 +1,21 @@
+Paketismi = Cevre
+
+
+Class Park
+	=>int agacSayi
+	=> String ismi
+	
+	setter-getter
+	
+Class Islem
+	=>main
+		ParkNesnesi.setAgacSayi(1000)
+		ParkNesnesi.setIsmi("güvenPark")
+		
+		sout(ParkNesnesi.getAgacSayi())
+		sout(ParkNesnesi.getIsmi())
+		
+		GeziParki.setAgacSayisi(500)
+		GeziParki.setIsmi("Gezi Parki")
+
+	

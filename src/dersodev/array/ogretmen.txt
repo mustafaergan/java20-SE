@@ -1,0 +1,11 @@
+ogretmen class
+	int ogretmenId
+	long tc;
+	String ismi
+	
+islem class
+	umutOgretmen
+	tamerOgretmen
+	
+	bilgilerini doldur ve ekranda yazdýr;
+	
