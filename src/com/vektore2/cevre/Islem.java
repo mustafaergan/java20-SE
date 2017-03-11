@@ -10,6 +10,7 @@ public class Islem {
 //		lokanta.birFoksiyon();
 		
 		Ev evMustafa = new Ev();
+		Ev ev1 = new Ev();
 		
 		evMustafa.setKacOda(10);
 		evMustafa.kacOda = 10;
@@ -35,6 +36,7 @@ public class Islem {
 		
 		parkGezi.setAgacSayisi(500);
 		parkGezi.setIsmi("Gezi");
+		parkGezi.setIsmi("Ovecler");
 		
 		System.out.println(parkGuven.getAgacSayisi());
 		System.out.println(parkGuven.getIsmi());
