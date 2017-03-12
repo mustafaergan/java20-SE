@@ -5,6 +5,8 @@ public class Kare {
 	
 	public int alanHesapla(){
 //		this.kenar = kenar;
+//		String kenar = "5";
+//		int kenar = 5;
 		int sonuc = this.kenar * this.kenar;
 		return sonuc;
 	}

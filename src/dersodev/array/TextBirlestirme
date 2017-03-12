@@ -1,0 +1,21 @@
+TextBirlestir.class
+	String[] dizisi
+	
+	1.cons = > String dizisi
+	2.cons = > 3 Parametre dizi 3 parametereyi basacak
+	3.cons = > 2 parametre alacak ama 3 boyutlu dizi araya - atacak
+	
+	birlestirFonk()
+		array içinde gezip " "eklecek  return String 
+		birlestiricek verileri
+		
+Islem.class
+	String[] = {}
+	new ([])
+	.birlestir
+	new (2)
+	.birlestir
+	new (3)
+	.birlestir
+	
+	 

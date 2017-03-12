@@ -1,0 +1,30 @@
+Oyun.class
+	char[] array;	
+	char[] kullaniciArrayi
+	char[] goster
+
+		cons(char array)
+			this.array = array;
+		
+		kelimeAl()
+			this.kullaniciArrayi = new Char[this.array.lenght]
+			for()
+				this.kullaniciArrayi[i]= scan.next.charAt(0);
+			
+			eslestir()
+				
+		eslestir()
+		this.goster = new char[this.array.lenght];
+			for(this.array)
+				for(this.kullaniciArrayi)
+					if(array[i] == kullaniciArrayi)
+						this.goster[i] = array[i];
+						
+		
+		sonDeger()
+		 scan next equals(array);
+		 
+		 
+		 
+						
+			

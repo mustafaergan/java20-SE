@@ -6,13 +6,13 @@ public class Ucgen {
 	int ikinciKenar;
 	int ucuncuKenar;
 	
-	int[] kenar;
+//	int[] kenar;
 	
 	public Ucgen(int birinciKenar, int ikinciKenar, final int x){
-		kenar = new int[3];
-		kenar[0] = 10;
-		kenar[1] = 5;
-		kenar[2] = 15;
+//		kenar = new int[3];
+//		kenar[0] = 10;
+//		kenar[1] = 5;
+//		kenar[2] = 15;
 		System.out.println("Merhaba Ben Ucgen");
 		this.birinciKenar = birinciKenar;
 		this.ikinciKenar = ikinciKenar;
@@ -20,8 +20,8 @@ public class Ucgen {
 	}
 	
 	public Ucgen(int birinciKenar){
-		kenar = new int[1];
-		kenar[0] = 10;
+//		kenar = new int[1];
+//		kenar[0] = 10;
 		System.out.println("Merhaba Ben eşkenar");
 		this.birinciKenar = birinciKenar;
 		this.ikinciKenar = birinciKenar;
@@ -29,9 +29,9 @@ public class Ucgen {
 	}
 	
 	public Ucgen(int birinciKenar,int ikinciKenar){
-		kenar = new int[2];
-		kenar[0] = 10;
-		kenar[1] = 15;
+//		kenar = new int[2];
+//		kenar[0] = 10;
+//		kenar[1] = 15;
 		System.out.println("Merhaba Ben ikizKenar");
 		this.birinciKenar = birinciKenar;
 		this.ikinciKenar = birinciKenar;

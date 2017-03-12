@@ -6,7 +6,18 @@ public class Islem {
 		
 		Kare kare = new Kare();
 		
-		kare.setKenar(10);
+		kare.setKenar(5);
+		
+//		System.out.println(kare.kenar);
+//		
+//		kare.kenar =10;
+//		
+//		System.out.println(kare.kenar);
+//		
+//		kare.setKenar(5);
+//
+//		
+//		System.out.println(kare.kenar);
 		
 		int sonuc = kare.alanHesapla();
 		
