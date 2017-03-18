@@ -1,0 +1,32 @@
+lokanta.package
+	NustEt.class
+		private int id;
+		public int masaSayi;
+		public int garsonSayisi;
+		int etMiktari;
+		
+		etMiktarýSorgula()
+			recep = new RecepUsta();
+			sout => recep.etMiktari
+		
+	RecepUsta.class
+		private int id;
+		public int masaSayi;
+		public int garsonSayisi;
+		int etMiktari;
+		
+		etMiktarýSorgula()
+			nustEt = new NustEt();
+			sout => nustEt.etMiktari
+
+yeni.package		
+	Musteri.class
+		private int id;
+		
+		RecepUstayýAra()
+			sout => masa sayisi sor(new recep)
+		
+		NusretAra()
+			sout => garson sayisini sor (new nusret)
+	
+	

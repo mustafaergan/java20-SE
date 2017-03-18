@@ -1,0 +1,34 @@
+Ulasim.pacakage
+	otobus.class
+		private String Model;
+		public String numara;
+		public int ayakYolcu;
+		public int oturanYolcu;
+		public int yolcuMiktari;
+		
+	kacTaneYolcuAlabilir(){
+		this.ayakYolcu this.oturanYolcu
+		return veri;
+	}
+
+	Yolcu.class
+		int id;
+		public String name;
+		
+		hangiOtobustesin(Otobus ototbus)
+			sout(otobus.numara)
+			sout(otobus.kacTaneYolcuAlabilir);
+		
+	Islem.class
+		main(){
+			Otobus otobus = new Otobus(....);
+			otobus.numsara = "197"
+			otobus.ayakYolcu = 15
+			otobus.oturanYolvu
+			...
+			Yolcu yolcuFatmaTeyze = new Yolcu(...);
+			yolcuFatmaTeyze.name = "Fatma";
+			yolcuFatmaTeyze.hangiOtobustesin(otobus);
+			
+		
+		}
