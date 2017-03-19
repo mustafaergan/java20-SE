@@ -1,0 +1,23 @@
+doktor.class
+	int tc;
+	String name;
+	setter - getter (tc-name)
+hemsire.class
+	int tc;
+	String name;
+	setter - getter (tc-name)
+	
+Hastane.class
+	public ameliyat(Doktor,Hemsire){
+		sout doktor ve hemsire bilgileri ver
+	}
+	
+	public ameliyat(Doktor){
+		sout dokto bilgisi ver
+	}
+Islem.class
+	main
+		doktor verileri gir
+		hemsire verileri gir
+		ameliyat(doktor,hemsire)
+		ameliyat(doktor)

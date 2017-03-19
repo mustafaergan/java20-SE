@@ -1,0 +1,23 @@
+Topla.class
+int sonuc;
+	Topla(int a, int b)
+		this.sonuc = a+b
+		
+	Topla(3 veri)
+		this.sonuc = 3 veri
+		
+	Topla(int[] array)
+		array for = içindeki verileri toplayýp sonuc atmanýzý
+		
+	Topla(int[] array, int[] array2)
+		iki tane array dolaþýp toplayacaksýnýz
+		
+
+	sonuc getter
+		
+Islem.class
+	int [] a = {3,5,4,6}
+	new Topla(a)
+	
+	4 nesne ve bu 4 nesnenin sonuclarýný istiyorum
+	
