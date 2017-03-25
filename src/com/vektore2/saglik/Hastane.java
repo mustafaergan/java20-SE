@@ -22,9 +22,20 @@ public class Hastane {
 		System.out.println("--doktor Array");
 		
 		for (int i = 0; i < arrayDoktor.length; i++) {
-			System.out.println(arrayDoktor[i].getName());
-			System.out.println(arrayDoktor[i].getTC());
+			Doktor doktor = arrayDoktor[i];
+			
+			System.out.println(doktor.getName());
+			System.out.println(doktor.getTC());
 		}
 	}
-
+	
+	public void ameliyat(int[] arrayDoktor) {
+		
+		System.out.println("--doktor Array");
+		
+		for (int i = 0; i < arrayDoktor.length; i++) {
+			int a = arrayDoktor[i];
+			System.out.println(a);
+		}
+	}	
 }

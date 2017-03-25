@@ -29,6 +29,15 @@ public class Islem {
 		arrayDoktor[1] = doktorMehmet;
 		
 		hastane.ameliyat(arrayDoktor);
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 		
 	}

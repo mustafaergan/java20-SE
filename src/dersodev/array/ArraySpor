@@ -1,0 +1,21 @@
+Spor.class
+	String türü
+		setter - getter
+Islem.class
+	Main=>
+		Spor array
+		
+		Spor basketbol = new Spor();
+		basket.setTuru("basketbol");
+		
+		Spor futbol = new Spor();
+		futbol.setTuru("futbol");
+		
+		...... 2 tane daha spor oluþturulacak
+		
+		Spor[] array tanimla ve 3 tane nesneyi buraya atalým
+		
+		
+	EkranYazdir (spor array)
+		for dönüp spor türleri ekrana yazdýr
+		
