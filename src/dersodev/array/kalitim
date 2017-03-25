@@ -1,0 +1,22 @@
+HayvanlarAlemi
+	Ureme()
+		sout=> ureme
+	
+Omurgalilar extends Hayavanlar Alemi
+	iskelet()
+		sout=> iskelet
+
+Memiler extends omurgalilar
+	hareket()
+			sout=> hareket
+	
+Goril extends memiler
+	ziplama();
+		sout=> ziplama
+
+Islem.class
+	goril nesnesi uret
+	
+	goril.ureme()
+	goril.iskelet()
+	goril.hareket()
