@@ -12,6 +12,7 @@ public class Dede extends Insan {
 	
 	@Override
 	public void gorme() {
+		super.gorme();
 		System.out.println("gorme dede gece körlüðü");
 	}
 	

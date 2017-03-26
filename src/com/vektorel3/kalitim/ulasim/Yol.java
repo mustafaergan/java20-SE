@@ -22,11 +22,9 @@ public class Yol {
 		return sonuc;
 	}
 	
-
 	public int sureHesap(int toplamYol) {
 		return toplamYol/hizSiniri;
 	}
-	
 	
 	public int getSeritSayi() {
 		return seritSayi;
