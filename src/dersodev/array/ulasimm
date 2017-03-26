@@ -1,0 +1,33 @@
+Ulasim.package
+	Yol.class
+		string ismi
+		string tipi
+		int seritSayi
+		Setter-getter
+		hizSiniri(){
+			sout => 80 
+		}
+		 
+	Otoyol.class extends yol
+		
+		hizsinir(){sout => 120}
+		
+	koyYolu.class extendx yol
+		hizsinir(){sout => 50}
+		
+		yolHesapla(array)
+			array içindeki verileri toplayıp return edilecek	
+		
+	Islem.class
+		main=>
+			Otoyol.hizsinir;
+			otoyol.setter
+			
+			KoYolu.hizsiniri;
+			koyyolu.setter
+			
+			=> getter ile ekrana yazdir
+			
+			
+			
+				

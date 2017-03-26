@@ -6,17 +6,27 @@ public class Islem {
 		
 		Dede dede = new Dede();
 		
-		dede.dokunma();
+		dede.gorme();
 		
 		Baba baba = new Baba();
 		
-		baba.duyma();
-		
-		baba.okurYazar();
+		baba.gorme();
 		
 		Cocuk cocuk = new Cocuk();
 		
-		cocuk.universiteMezunu();
+		cocuk.gorme();
+		
+//		dede.dokunma();
+//		
+//		Baba baba = new Baba();
+//		
+//		baba.duyma();
+//		
+//		baba.okurYazar();
+//		
+//		Cocuk cocuk = new Cocuk();
+//		
+//		cocuk.universiteMezunu();
 		
 	}
 	

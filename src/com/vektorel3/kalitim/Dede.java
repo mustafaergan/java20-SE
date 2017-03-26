@@ -9,5 +9,18 @@ public class Dede extends Insan {
 	private void uzunAtlamaci(){
 		System.out.println("Uzun Atlamaci");
 	}
+	
+	@Override
+	public void gorme() {
+		System.out.println("gorme dede gece körlüðü");
+	}
+	
+//	public void gorme(String a) {
+//		System.out.println("gorme dede gece körlüðü");
+//	}
+//
+//	public void gorme(int a) {
+//		System.out.println("gorme dede gece körlüðü");
+//	}
 
 }
