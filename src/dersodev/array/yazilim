@@ -1,0 +1,26 @@
+yazilim.package
+	yazilim.class
+		dongu(){
+			sout => yazilim dongu
+		}
+		
+		foksiyonlar(){
+			sout => foksiyonlar
+		}
+	
+	java.class extends cplusplus
+		foksiyon() overide sout => java foksiyon super.foksiyonlari
+	
+	
+	cplusplus.class extends c
+		dongu override sout => cplus plus dongu ve 
+					   super.dongu
+	
+		classlar() sout => cplusplus class'lar
+	
+	
+	c.class extends yazilim
+	
+	
+	
+	

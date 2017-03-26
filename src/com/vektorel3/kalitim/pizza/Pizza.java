@@ -14,6 +14,5 @@ public class Pizza extends Hamur {
 		System.out.println("pizza sýnýfý hamur yap foksiyonu");
 		super.hamurunYap();
 	}
-	
 
 }
