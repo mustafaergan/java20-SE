@@ -10,6 +10,12 @@ public class Islem {
 		
 		java.dongu();
 		
+		C c = new C();
+		
+		c.dongu();
+		
+		
+		
 	}
 
 }

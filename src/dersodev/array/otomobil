@@ -1,0 +1,26 @@
+Araba.class
+	protected motor(){
+	}
+	
+	public int[] ortalamaYakitTuketimi
+		return array içidenki ortalamayi bul
+	public teker();
+	
+	yakitTuketimi
+		sout => 5 lt
+
+=>sporAraba.class extends Araba
+	yakitTuketimi
+	sout => 10 lt
+=>binekAraban.class extends Araba
+	=>sedan.class extends binekAraba
+			yakitTuketimi
+			sout => 6 lt
+	=>hb.class extends binekAraba
+			
+Islem.class
+	new Sedan => yakitTuketimi()
+	int yakit = sedan.ortalamaYakitFoksiyonu({10,6,8,9}); sout(yakit);
+	new Hb; hb.motor();
+	hb.yakitTuketimi();
+	
