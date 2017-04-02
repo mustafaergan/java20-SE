@@ -4,19 +4,27 @@ public class Islem {
 
 	public static void main(String[] args) {
 		
-		Bisiklet bisiklet = new Bisiklet();
+//		Bisiklet bisiklet = new Bisiklet();
+//		
+//		bisiklet.fren();
+//		
+//		bisiklet.diskFren();
+//		
+//		System.out.println("---------------");
+//		
+//		IBisikletli bissan = new Bisiklet();
+//		
+//		bissan.fren();
+//		bissan.pedal();
+//		bissan.pedal();
 		
-		bisiklet.fren();
-		
-		bisiklet.diskFren();
-		
-		System.out.println("---------------");
-		
-		IBisikletli bissan = new Bisiklet();
+		IBisikletli bissan = new Bissan();
 		
 		bissan.fren();
-		bissan.pedal();
-		bissan.pedal();
+		
+		IBisikletli umit = new Umit();
+		
+		umit.fren();
 		
 	}
 	

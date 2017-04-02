@@ -1,0 +1,20 @@
+Matematik.class implement IArray, IDortIslem
+	buSayiyaKadarKareBul(int sayi)
+		==> 50  array = 1, 2 ,3 , ... 7 return array
+	arrayMinBul([] array)
+		==> array içinde gez min bul return et
+	toplama(int a,int b)
+		return a+b;
+	carpma(int a, int b)
+		eturn a*b;
+
+
+interface IArray
+	buSayiyaKadarKareBul(int sayi);
+	arrayMinBul([] array);
+
+
+interface IDortIslem
+	toplama(int a,int b);
+	carpma(int a, int b);
+		
