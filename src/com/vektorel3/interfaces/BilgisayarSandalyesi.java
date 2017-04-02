@@ -3,7 +3,7 @@ package com.vektorel3.interfaces;
 public class BilgisayarSandalyesi implements ISandalye {
 
 	public void oturma() {
-
+		
 		System.out.println("oturmak");
 	}
 

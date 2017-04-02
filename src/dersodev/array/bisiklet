@@ -1,0 +1,10 @@
+Bisikletin interfces
+Pedal();
+Fren();
+Vites();
+
+Bisiklet imp	IBisiklet
+
+
+
+
