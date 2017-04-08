@@ -1,0 +1,17 @@
+Veritabani.class soyut
+
+	connetion(){
+		sout=> baglandi
+	}
+	
+	connetionclose(){
+		sout=> veritabani kapat
+	}
+	
+	abstract void login();
+	
+	
+Islem.class
+	BenimSinifim myClass = new BenimSinifim();
+	myClass.login();
+	myClass.connetion();
