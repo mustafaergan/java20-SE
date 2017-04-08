@@ -1,0 +1,21 @@
+park Package
+
+	IPark
+		insan();
+		hayvan();
+		
+	Orman.class
+		Orman(){sout=> merhaba ben orman}
+	
+	Park.class imp IPark
+		Park(String adi){sout => merhaba ben .... park}
+		
+		......imp gelen metod ve sout();
+		
+		
+	Islem.class
+		main=>
+			IPrak guvenPark = new Park("güven");
+			guvenPark.hayvan();
+		
+		
