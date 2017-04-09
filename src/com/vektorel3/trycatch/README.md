@@ -1,5 +1,5 @@
 
-#Hata Tipleri	Hatanýn Anlamý
+# Hata Tipleri	Hatanýn Anlamý
 
 - ArithmeticException	Aritmatiksel bir iþlem sýrasýnda oluþan hata 
 
