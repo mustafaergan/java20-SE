@@ -9,4 +9,5 @@ public class VergiCankaya extends AVergilendirmeHesaplari {
 		System.out.println("deneme");
 	}
 	
+	
 }
