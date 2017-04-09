@@ -1,0 +1,10 @@
+MyError
+
+	int[3] array
+	
+	for(int i = 0 ; i< 15 ; i++)
+		 if(i>array.lenght)
+		 	throw new ArrayIndex("buradan sonra devam edemem")
+		 	
+		int[i] = i*5;
+	

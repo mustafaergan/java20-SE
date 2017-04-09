@@ -1,0 +1,9 @@
+MyError.class
+
+	hataliFonk() throws FileSystemNotFoundException {
+		sout => hatali foksiyon
+	}
+Islem.clas
+	MyError error
+	error.hataliFonk();
+	
