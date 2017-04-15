@@ -1,0 +1,18 @@
+MustafaHatasi.class extends NullPointerException
+
+MustafaHatasi(String s,int time)
+	super(s);,
+	sout => "time:"+time
+
+Kisi.class
+	String veri;
+	--set-get
+
+Islem.class
+	main =>
+	Kisi kisi = new Kisi();
+	
+	if(kisi.getVeri null'sa)
+		MustafaHatasini Patlat
+		
+	

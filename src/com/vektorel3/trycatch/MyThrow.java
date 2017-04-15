@@ -18,6 +18,8 @@ public class MyThrow {
 		}
 		}catch (Exception e) {
 			System.out.println(e.getMessage());
+		}finally {
+			System.out.println("mesaj");
 		}
 		
 		System.out.println("program devam");

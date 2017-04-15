@@ -11,6 +11,13 @@ public class MethodThrow {
 		} catch (FileAlreadyExistsException e) {
 			e.printStackTrace();
 		}
+		
+		try {
+			hata.deneme2();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 
