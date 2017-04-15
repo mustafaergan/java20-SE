@@ -20,9 +20,6 @@ public class MyString {
 		for (int i = 0; i < array.length; i++) {
 			char cc = array[i];
 			System.out.println("dizi içi :"+cc);
-			
 		}
-		
 	}
-
 }

@@ -1,0 +1,7 @@
+mesaj;
+array = mesaj;
+for(){
+if(i%2 == 1)
+	array[i] = String.tostring(array[i]).toUpperCase
+}
+new String(array);
