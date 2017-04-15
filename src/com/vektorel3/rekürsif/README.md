@@ -41,10 +41,13 @@ Sonuçta ise I’e dönülerek F(4)=6.4=24 olarak 4! ifadesinin sonucu bulunacaktýr.
 
 int fakt(int n)
 {
+
     if(n<=1)
         return (1);
+        
     else
         return (n*fakt(n-1));
+        
 }
 
 
@@ -73,8 +76,11 @@ ve genel olarak
 
 int fibon(int n)
 {
+
     if(n==1 || n==2)
         return (1);
+        
     else
         return (fibon(n-1)+fibon(n-2));
+        
 }
