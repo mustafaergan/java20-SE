@@ -1,4 +1,4 @@
-package com.vektorel3.koleksiyonlar;
+package com.vektorel3.koleksiyonlar.set;
 
 import java.util.HashSet;
 
@@ -48,7 +48,7 @@ public class Islem {
 		for (int i = 0; i < a.length; i++) {
 			
 		}
-
+		
 	}
 
 }
