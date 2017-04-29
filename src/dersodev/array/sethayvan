@@ -1,0 +1,16 @@
+sethayvan.package
+Hayvan.class
+	int id;
+	String tür;
+	String name;
+Islem.class
+	main()
+		while(id)
+			=> hayvan = createHayvan(scan...)
+			=> set.add(hayvan)
+	
+	set.iterator
+	while(it.hasnext){
+		hayvan = it.next()
+		sout(hayvan.getName)
+	}

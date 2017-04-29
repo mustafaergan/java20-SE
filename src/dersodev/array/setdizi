@@ -1,0 +1,20 @@
+Lokanta.class
+	Sting name;
+	String adres;
+	
+Islem.class
+	Lokanta[] diziDonder(){
+		Lokanta l1 = new Lokanta(......)
+		Lokanta l2 = new Lokanta(......)
+		Lokanta l3 = new Lokanta(......)
+		Lokanta[] myArray = {l1,l2,l3};
+		return myArray;
+	}
+	main(){
+		HastSet list = ...
+		Lokanta[] myList = diziDonder();
+		for
+			list.add(myList[i])
+	
+	}
+	

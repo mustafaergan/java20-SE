@@ -7,12 +7,22 @@ import java.util.Set;
 public class Dersler {
 	
 	public static void main(String[] args) {
-		Set<String> myHash = new HashSet<>();
+		
+//		int[] a = new int[15];
+//		a[0]= 15;
+//		a[2] = 25;
+		
+		HashSet<String> myHash = new HashSet<>();
+
 		myHash.add("Fizik");
 		myHash.add("Kimya");
 		myHash.add("Matematik");
 		
 		myHash.remove("Fizik");
+		
+		if(myHash.add("Matematik")){
+			System.out.println("veri ekledi");
+		}
 		
 		System.out.println(myHash);
 		
