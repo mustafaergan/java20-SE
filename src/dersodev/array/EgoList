@@ -1,0 +1,21 @@
+Ego.class
+id
+plaka
+tur
+ListDoldur.class
+	List<Ego> egolariDoldur(){
+		//veritabanýný
+		Ego o1= new Ego(1,"06..","man")
+		Ego o2= new Ego(1,"06..","man")
+		List<Ego> list
+		list.add(01) ....
+		return list
+	}
+Web.class
+	main(){
+		//combox doldur
+		ListDoldur listDoldur = new ListDoldur()
+		List<Ego> list = listDoldur.egolariDoldur()
+		for(list)
+			sout(list.get(i))
+	}
