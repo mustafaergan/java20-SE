@@ -16,21 +16,22 @@ public class Islem {
 		frame.setSize(200, 200);
 		frame.setVisible(true);
 		JButton jButton = new JButton("merhaba Dünya");
-//		frame.add(jButton);
 		
-		jButton.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				System.out.println("merhaba dünya basildi");
-			}
-		});
+		frame.add(jButton);
 		
-		JLabel jLabel = new JLabel("Text Veri");
-//		frame.add(jLabel);
-
-		JTextArea jTextArea = new JTextArea(20, 20);
-		frame.add(jTextArea);
+//		jButton.addActionListener(new ActionListener() {
+//			
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				System.out.println("merhaba dünya basildi");
+//			}
+//		});
+		
+//		JLabel jLabel = new JLabel("Text Veri");
+//
+//
+//		JTextArea jTextArea = new JTextArea(20, 20);
+//		frame.add(jTextArea);
 
 	}
 
