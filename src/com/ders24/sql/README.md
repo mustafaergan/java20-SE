@@ -70,5 +70,43 @@ SELECT
 
 
 
+select count(*) from hastane;
 
+
+select avg(doktor.id) from doktor;
+
+
+select sum(doktor.id) from doktor;
+
+ÖDEV:
+CREATE FUNCTION `new_function` (iki tane veri al)
+RETURNS varchar(50)
+BEGIN
+concat('abc','abc');
+RETURN '';
+END
+
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `veri_ekle_doktor`(idx int,
+namex varchar(50))
+BEGIN
+insert into doktor (id,name) values (idx,namex);
+insert into doktor (id,name) values (idx+1,namex);
+insert into doktor (id,name) values (idx+2,namex);
+
+END
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `carp`(veri int) RETURNS int(11)
+BEGIN
+call veri_ekle_doktor(veri,'asd');
+insert into doktor (id,name) values (veri+5,'veri');
+RETURN (veri * (veri-1));
+END
+
+
+
+CREATE DEFINER=`root`@`localhost` TRIGGER `hastane`.`hastane_BEFORE_INSERT` BEFORE INSERT ON `hastane` FOR EACH ROW
+BEGIN
+insert into log values (NEW.name);
+END
 
